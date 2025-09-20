@@ -6,13 +6,13 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "fontc";
-  version = "0.3.0";
+  version = "0.3.2";
 
   src = fetchFromGitHub {
     owner = "googlefonts";
     repo = "fontc";
     tag = "fontc-v${version}";
-    hash = "sha256-Zr2nJRNY1vLGhVOGC3KSWbd4cQReO/F8Wgzx3y/qPFc=";
+    hash = "sha256-g+Hu4ucj0bT8f3UPiuFTyySwku10CCMt/sjJHMaLVwc=";
   };
   buildAndTestSubdir = "fontc";
 
